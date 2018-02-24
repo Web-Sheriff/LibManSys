@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Books</title>
+    </head>
+
+    <body>
+
+
+    <!-- НИ ОДНА КНОПКА НЕ РАБОТАЕТ -->
+
+
+
+    <!-- For working with form -->
+    <!--{% block content %}-->
+        <form method="LOGOUT" class="logout" style=" position: fixed ; top: 20px; right: 25px; float: right"; top: 20px; left: 1800px;" ;>{% csrf_token %}
+            <!--{{ form.as_p }}-->
+            <button type="submit" class="save btn btn-default" style="background: orange;">Log in</button>
+        </form>
+    <!--{% endblock %}-->
+
+
+
+        <div>
+            <h1 style="padding-left: 200px">
+                <input type="search" placeholder="Search books on site" size="150">
+                <button type="submit" value="Search"> Search </button>
+            </h1>
+        </div>
+
+
+        <h1 style="padding-top: 20px; padding-left: 300px"> Books in library:</h1>
+
+        <div style="padding-top: 20px; padding-left: 350px; padding-right: 350px; ">
+
+            <h2>
+                <img src="https://bertrandmeyer.com/wp-content/upLoads/touch_of_class.jpg" ; alt="Touch of Class" ; height="165" ; border="1px" ; style="float: left; margin: 10px">
+                <a>Touch of Class </a> <button type="button"> Get </button>
+            </h2>
+
+                <p>From object technology pioneer, Design by Contract inventor and ETH Zurich professor Bertrand Meyer, winner of ACM Software System Award, the Dahl-Nygaard prize and the Jolt award, Touch of Class is a revolutionary introductory programming textbook that makes learning programming fun and rewarding.
+
+Instead of the traditional low-level examples, Meyer builds his presentation on a rich object-oriented software system supporting graphics and multimedia, which students can use to produce impressive applications from day one, then explore "from the outside in" as they learn new programming techniques.</p>
+
+                <p><br><br><br><br><br></p>
+
+            <h2>
+                <img src="https://rukminim1.flixcart.com/image/832/832/book/1/3/4/principles-of-mathematical-analysis-original-imaeasfs2fy7ddux.jpeg?q=70" ; alt="Principles of mathematical analysis" ; height="170px" ; border="1px" ; style="float: left; margin: 10px;">
+                <a>Principles of mathematical analysis 3rd edition</a> <button type="button"> Get </button>
+            </h2>
+
+                <p>The third edition of this well known text continues to provide a solid foundation in mathematical analysis for undergraduate and first-year graduate students. The text begins with a discussion of the real number system as a complete ordered field. (Dedekind's construction is now treated in an appendix to Chapter I.) The topological background needed for the development of convergence, continuity, differentiation and integration is provided in Chapter 2. There is a new section on the gamma function, and many new and interesting exercises are included.
+This text is part of the Walter Rudin Student Series in Advanced Mathematics.</p>
+
+                <p><br><br><br><br><br></p>
+
+            <h2>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51sCBws2j7L._AC_UL320_SR248,320_.jpg"; alt="Linear Algebra and its applications 4th edition" height="160px"; border="1px"; style="float: left; margin: 10px">
+                <a>Linear Algebra and its applications 4th edition</a> <button type="button"> Get </button>
+            </h2>
+
+                <p>Renowned professor and author Gilbert Strang demonstrates that linear algebra is a fascinating subject by showing both its beauty and value. While the mathematics is there, the effort is not all concentrated on proofs. Strang's emphasis is on understanding. He explains concepts, rather than deduces. This book is written in an informal and personal style and teaches real mathematics. The gears change in Chapter 2 as students reach the introduction of vector spaces. Throughout the book, the theory is motivated and reinforced by genuine applications, allowing pure mathematicians to teach applied mathematics.</p>
+
+                <p><br><br><br><br><br></p>
+
+            <h2>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/517UE-SbwyL._AC_UL320_SR242,320_.jpg"; alt="Computer Organization and Design: The Hardware/Software Interface" height="163px"; border="1px"; style="float: left; margin: 10px;">
+                <a>Computer Organization and Design: The Hardware/Software Interface</a> <button type="button"> Get </button>
+            </h2>
+
+                <p>Computer Organization and Design, Fifth Edition, is the latest update to the classic introduction to computer organization. The text now contains new examples and material highlighting the emergence of mobile computing and the cloud. It explores this generational change with updated content featuring tablet computers, cloud infrastructure, and the ARM (mobile computing devices) and x86 (cloud computing) architectures. The book uses a MIPS processor core to present the fundamentals of hardware technologies, assembly language, computer arithmetic, pipelining, memory hierarchies and I/O.Because an understanding of modern hardware is essential to achieving good performance and energy efficiency, this edition adds a new concrete example, Going Faster, used throughout the text to demonstrate extremely effective optimization techniques.
+                </p><br><br><br></p>
+        </div>
+    </body>
+</html>

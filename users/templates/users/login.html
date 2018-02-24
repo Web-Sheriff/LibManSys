@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>login</title>
+    </head>
+
+    <body>
+
+    <!-- For working with form -->
+        {% block content %}
+        <h1 style="position: fixed; top: 130px; left: 625px;); ">Login</h1>
+            <form method="LOGIN" class="login" style="position: fixed; top: 200px; left: 550px; border: #FCA205 5px solid " ;>{% csrf_token %}
+            {{ form.as_p }}
+		
+		<button type="submit" class="save btn btn-default" style="margin-top: 5px; background: yellow">Log in</button>
+                <button type="button" onclick="window.location.href='http://127.0.0.1:8000/signup'" style="margin-left: 15px; background: green; color:ghostwhite;"> Sign up</button>
+
+
+            </form>
+        {% endblock %}
+
+    </body>
+</html>
